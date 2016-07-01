@@ -36,4 +36,19 @@ This is a list of the most common number types and what to import to get them.
 |CReal     |Data.Number.CReal|sqrt 2    |Computable real (numbers package)|
 |CReal n   |Data.CReal       |sqrt 2 :: CReal 100|Computable real (exact-real package)|
 
+## Converting between number types
+
+There are a lot of number types, but generally there's only a few functions
+necessary to do conversions.
+
+- `fromIntegral = fromInteger . toInteger` converts any integral type to
+any other number type.
+- `realToFrac = fromRational . toRational` converts between fractional types.
+This isn't strictly safe if the source type can't be mapped to the rationals.
+- `floor`, `ceiling`, `round`, or `truncate` will convert any fractional
+number to any integral type.
+
+All of the above conversions might lose information depending on the source
+and target types.
+
 [1]: `let n = 2^62+1 :: Int in n == floor (fromIntegral n :: Double)`
