@@ -35,3 +35,5 @@ This is a list of the most common number types and what to import to get them.
 |Natural   |Numeric.Natural  |3         |Arbitrary non-negative|
 |CReal     |Data.Number.CReal|sqrt 2    |Computable real (numbers package)|
 |CReal n   |Data.CReal       |sqrt 2 :: CReal 100|Computable real (exact-real package)|
+
+[1]: `let n = 2^62 :: Int in n == floor (fromIntegral n :: Double)`
