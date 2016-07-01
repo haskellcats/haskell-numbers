@@ -30,7 +30,7 @@ This is a list of the most common number types and what to import to get them.
 |Word8<br>Word16<br>Word32<br>Word64|Data.Word|3|Fixed-size unsigned int|
 |Word      |Data.Word        |3         |Unsigned machine int|
 |Int8<br>Int16<br>Int32<br>Int64|Data.Int|3|Fixed-size signed int|
-|Deci<br>Milli<br>Micro<br>Nano<br>Pico<br>Fixed N|Data.Fixed|3.00|Decimal fixed-point|
+|Deci<br>Milli<br>Micro<br>Nano<br>Pico<br>Fixed n|Data.Fixed|3.00|Decimal fixed-point|
 |Scientific|Data.Scientific  |9.109e-31 |Decimal scientific notation (scientific package)|
 |Natural   |Numeric.Natural  |3         |Arbitrary non-negative|
 |CReal     |Data.Number.CReal|sqrt 2    |Computable real (numbers package)|
