@@ -10,8 +10,8 @@ number has different strengths and drawbacks. Which one you want to use depends
 on factors like
 
 - convenience: The standard library uses Int in many places.
-- performance: Is numeric code your programs bottleneck? Double and Int compute
-faster due to hardware support. They can also take up less memory.
+- performance: Is numeric code your program's bottleneck? Double and Int compute
+faster due to hardware support. Also they can take less memory and be unboxed.
 - faithfulness: Double can't represent an arbitrary rational number. But Rational can.
 - security: Allowing users to specify arbitrary Integers or Rationals can be
 a denial of service vulnerability.
