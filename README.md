@@ -24,10 +24,7 @@ This is a list of the most common number types and what to import to get them.
 |Integer ||Arbitrary integer|
 |Float ||Single precision float|
 |Double ||Double precision float|
-|Word8  
-|Word16 
-|Word32 
-|Word64 |Data.Word|fixed-size unsigned int|
+|Word8<br>Word16<br>Word32<br>Word64|Data.Word|fixed-size unsigned int|
 |Word   |Data.Word|unsigned machine int|
 |Int8
 |Int16
