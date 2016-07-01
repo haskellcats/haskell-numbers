@@ -24,11 +24,7 @@ This is a list of the most common number types and what to import to get them.
 |Integer ||Arbitrary integer|
 |Float ||Single precision float|
 |Double ||Double precision float|
-|Word8<br>Word16<br>Word32<br>Word64|Data.Word|fixed-size unsigned int|
-|Word   |Data.Word|unsigned machine int|
-|Int8
-|Int16
-|Int32
-|Int64 |Data.Int|fixed-size signed int|
-|Rational |Data.Ratio|type Rational = Ratio Integer, e.g. 5 % 16|
-
+|Word8<br>Word16<br>Word32<br>Word64|Data.Word|Fixed-size unsigned int|
+|Word|Data.Word|Unsigned machine int|
+|Int8<br>Int16<br>Int32<br>Int64|Data.Int|Fixed-size signed int|
+|Rational |Data.Ratio|Rational e.g. 5 % 16|
